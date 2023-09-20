@@ -35,17 +35,21 @@ export default function Home() {
         >
           Info Mostra
         </Link>
+      </div>
+      <div className={styles.iscrizione}>
         <h4>
           Iscriviti entro il 15 Ottobre alla nostra Waiting List per ricevere
           uno sconto del 30%
         </h4>
         <h5>* lo sconto verrà applicato SOLO all'acquisto in biglietteria</h5>
+        <Link
+          href={"mailto:web@navigaresrl.com?subject=Iscrizione Mailing List"}
+        >
+          <p>SCRIVICI NOME E COGNOME</p>
+        </Link>
       </div>
-      <form
-        action="https://formsubmit.co/web@navigaresrl.com"
-        method="POST"
-        className={styles.form}
-      >
+
+      {/*  <form method="post" action="mail.php" className={styles.form}>
         <input
           type="text"
           id="name"
@@ -57,7 +61,7 @@ export default function Home() {
         <input
           type="text"
           id="città"
-          name="città"
+          name="city"
           placeholder="Città"
           required
         />
@@ -69,7 +73,7 @@ export default function Home() {
             l'invio di mail da parte di NavigareSrl
           </p>
         </div>
-      </form>
+      </form> */}
       <div className={styles.footer}>
         Una produzione di{" "}
         <Link href={"https://www.navigaresrl.com/"}>

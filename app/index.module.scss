@@ -11,15 +11,7 @@
       object-fit: contain;
       padding-bottom: 40px;
     }
-    h4,
-    h5 {
-      text-align: center;
-      padding: 20px;
-      font-size: 14pt;
-    }
-    h5 {
-      font-style: italic;
-    }
+
     p {
       text-align: justify;
       padding-left: 30px;
@@ -38,10 +30,42 @@
       margin-bottom: 30px;
     }
     .link:hover {
-      background-color: rgb(170, 170, 170);
+      background-color: rgb(170, 170, 170, 0.452);
     }
   }
+  .iscrizione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4,
+    h5 {
+      text-align: center;
+      padding: 20px;
+      font-size: 14pt;
+    }
+    h5 {
+      font-style: italic;
+    }
 
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+
+      margin-bottom: 30px;
+    }
+    p {
+      background-color: rgb(216, 216, 216);
+      padding: 10px;
+      font-size: 15pt;
+      margin-bottom: 40px;
+    }
+    p:hover {
+      background-color: rgba(170, 170, 170, 0.452);
+    }
+  }
   .form {
     display: flex;
     flex-direction: column;
