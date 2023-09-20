@@ -47,6 +47,7 @@ export default function Home() {
         >
           <p>SCRIVICI NOME E COGNOME</p>
         </Link>
+        <h6>N.B : Cliccando su Invia autorizzi il trattamento dei tuoi dati</h6>
       </div>
 
       {/*  <form method="post" action="mail.php" className={styles.form}>
@@ -75,10 +76,8 @@ export default function Home() {
         </div>
       </form> */}
       <div className={styles.footer}>
-        Una produzione di{" "}
-        <Link href={"https://www.navigaresrl.com/"}>
-          <Image src={logo} width={50} alt="logo"></Image>
-        </Link>
+        Una produzione di
+        <Link href={"https://www.navigaresrl.com/"}>NavigareSrl</Link>
       </div>
     </main>
   );
