@@ -13,6 +13,7 @@
     }
     h4,
     h5 {
+      text-align: center;
       padding: 20px;
       font-size: 14pt;
     }
@@ -42,19 +43,18 @@
   }
 
   .form {
-    width: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
+    padding: 30px;
     input {
       margin: 10px;
       border: 0;
       border-bottom: 1px solid rgb(216, 216, 216);
       padding: 15px 10px;
-      width: 50%;
+      width: 70%;
     }
 
     .submit {
@@ -72,6 +72,10 @@
     .divForm {
       display: flex;
       padding: 20px;
+
+      p {
+        text-align: center;
+      }
     }
   }
   .footer {
@@ -97,6 +101,7 @@
       }
     }
     .form {
+      font-size: 14pt;
       width: 100%;
       padding-left: 60px;
       padding-right: 60px;

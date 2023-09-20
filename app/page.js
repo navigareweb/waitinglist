@@ -71,7 +71,7 @@ export default function Home() {
       <div className={styles.footer}>
         Una produzione di{" "}
         <Link href={"https://www.navigaresrl.com/"}>
-          <Image src={logo} width={70} alt="logo"></Image>
+          <Image src={logo} width={50} alt="logo"></Image>
         </Link>
       </div>
     </main>
