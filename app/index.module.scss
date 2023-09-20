@@ -1,0 +1,79 @@
+.copertina {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding: 40px;
+  }
+  h3,
+  h4 {
+    color: rgb(216, 216, 216);
+  }
+  h4 {
+    font-style: italic;
+    padding-top: 5px;
+  }
+  p {
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 30px;
+  }
+  .link:hover {
+    background-color: rgb(170, 170, 170);
+  }
+}
+
+.form {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 15px 10px;
+    width: 50%;
+    color: white;
+  }
+
+  .submit {
+    background-color: rgba(128, 128, 128, 0.369);
+    border: 0;
+  }
+
+  .submit:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.572);
+  }
+
+  .divForm {
+    display: flex;
+    padding: 20px;
+
+    p {
+      color: white;
+    }
+  }
+}

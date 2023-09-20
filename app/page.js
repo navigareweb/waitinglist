@@ -1,95 +1,59 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import copertina from "../public/heromiro.jpg";
+import styles from "./index.module.scss";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.copertina}>
+        <Image src={copertina} width={"100%"} className={"img"} />
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
+          La mostra racchiude all’incirca 100 opere tra dipinti, tempere,
+          acquerelli, disegni, sculture e ceramiche provenienti da musei
+          francesi e collezionisti privati, completata da una serie di opere
+          grafiche, libri e documenti. La curatela è affidata al critico d’arte
+          Achille Bonito Oliva, fra i maggiori e più stimati in Italia, insieme
+          a Maïthé Vallès-Bled (già direttrice di musei francesi) e a Vincenzo
+          Sanfo, esperto d’arte e organizzatore di grandi mostre internazionali.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        <Link
+          href={"https://www.navigaresrl.com/mostra/3573/"}
+          className={styles.link}
+        >
+          Info Mostra
+        </Link>
+        <h3>
+          Iscriviti alla nostra Waiting List per ricevere uno sconto del 30%
+        </h3>
+        <h4>* lo sconto verrà applicato SOLO all'acquisto in biglietteria</h4>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+      <form className={styles.form}>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nome e cognome"
+          required
         />
-      </div>
+        <input type="text" id="mail" name="mail" placeholder="Email" required />
+        <input
+          type="text"
+          id="città"
+          name="città"
+          placeholder="Città"
+          required
+        />
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+        <input type="submit" value="Invia" className={styles.submit} />
+        <div className={styles.divForm}>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            N.B : Cliccando su Invia autorizzi il trattamento dei tuoi dati e
+            l'invio di mail da parte di NavigareSrl
           </p>
-        </a>
-      </div>
+        </div>
+      </form>
+      <div className={styles.footer}></div>
     </main>
-  )
+  );
 }
