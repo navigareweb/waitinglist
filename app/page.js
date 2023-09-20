@@ -17,11 +17,13 @@ export default function Home() {
         <p>
           Dal <strong>28 Ottobre al 14 Gennaio</strong> la mostra{" "}
           <strong> Miró a Torino </strong>
-          sarà visitabile al Mastio Della Cittadella di Torino. La mostra
-          racchiude all’incirca 100 opere tra dipinti, tempere, acquerelli,
-          disegni, sculture e ceramiche provenienti da musei francesi e
-          collezionisti privati, completata da una serie di opere grafiche,
-          libri e documenti. La curatela è affidata al critico d’arte{" "}
+          sarà al Mastio Della Cittadella di Torino. La mostra racchiude
+          all’incirca 100 opere tra dipinti, tempere, acquerelli, libri,
+          documenti, disegni, sculture e ceramiche provenienti da musei francesi
+          e collezionisti privati.
+        </p>
+        <p>
+          La curatela è affidata al critico d’arte{" "}
           <strong>Achille Bonito Oliva</strong>, fra i maggiori e più stimati in
           Italia, insieme a Maïthé Vallès-Bled (già direttrice di musei
           francesi) e a Vincenzo Sanfo, esperto d’arte e organizzatore di grandi

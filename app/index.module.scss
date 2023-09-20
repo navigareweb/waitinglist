@@ -14,12 +14,11 @@
     h4,
     h5 {
       text-align: center;
-      padding: 20px;
+      padding: 10px;
       font-size: 14pt;
     }
     h5 {
       font-style: italic;
-      padding-top: 3px;
     }
     p {
       text-align: justify;
@@ -48,7 +47,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 30px;
     input {
       margin: 10px;
@@ -103,7 +101,6 @@
     }
     .form {
       font-size: 14pt;
-      width: 100%;
       padding-left: 60px;
       padding-right: 60px;
     }
