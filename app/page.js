@@ -42,7 +42,7 @@ export default function Home() {
         <h5>* lo sconto verrà applicato SOLO all'acquisto in biglietteria</h5>
       </div>
       <form
-        action="https://formsubmit.co/9342ac848191fdbd8f6fdf241baff761"
+        action="https://formsubmit.co/web@navigaresrl.com"
         method="POST"
         className={styles.form}
       >
