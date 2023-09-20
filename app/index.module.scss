@@ -22,7 +22,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #e63121;
+      background-color: #eee534c3;
       text-decoration: none;
       padding: 10px;
       text-transform: uppercase;
@@ -30,7 +30,7 @@
       margin-bottom: 30px;
     }
     .link:hover {
-      background-color: #e63121e8;
+      background-color: #eee534;
     }
   }
   .iscrizione {
@@ -39,7 +39,8 @@
     justify-content: center;
     align-items: center;
     h4,
-    h5 {
+    h5,
+    h6 {
       font-family: "Manrope", sans-serif;
       font-weight: 600;
       text-align: center;
@@ -62,13 +63,13 @@
     p {
       font-family: "Manrope", sans-serif;
       font-weight: 500;
-      background-color: #e63121;
+      background-color: #eee534c3;
       padding: 10px;
       font-size: 15pt;
       margin-bottom: 40px;
     }
     p:hover {
-      background-color: #e63121e8;
+      background-color: #eee534;
     }
   }
   .form {
