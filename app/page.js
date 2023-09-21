@@ -38,7 +38,7 @@ export default function Home() {
       </div>
       <div className={styles.iscrizione}>
         <h4>
-          Iscriviti entro il 15 Ottobre alla nostra Waiting List per ricevere
+          Iscriviti entro il 10 Ottobre alla nostra Waiting List per ricevere
           uno sconto del 30%
         </h4>
         <h5>* lo sconto verrà applicato SOLO all'acquisto in biglietteria</h5>
