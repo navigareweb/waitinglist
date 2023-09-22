@@ -41,7 +41,10 @@ export default function Home() {
           Iscriviti entro il 10 Ottobre alla nostra Waiting List per ricevere
           uno sconto del 30%
         </h4>
-        <h5>* lo sconto verrà applicato SOLO all'acquisto in biglietteria</h5>
+        <h5>
+          * lo sconto verrà applicato SOLO per il biglietto INTERO FERIALE
+          acquistato in biglietteria
+        </h5>
         <Link
           href={"mailto:web@navigaresrl.com?subject=Iscrizione Mailing List"}
         >
