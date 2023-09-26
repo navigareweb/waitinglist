@@ -30,7 +30,7 @@ export default function Home() {
           mostre internazionali.
         </p>
         <Link
-          href={"https://www.navigaresrl.com/mostra/3573/"}
+          href={"https://www.navigaresrl.com/mostra/miro-a-torino/"}
           className={styles.link}
         >
           Info Mostra
